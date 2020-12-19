@@ -15,5 +15,6 @@ func main() {
 	newConnection := Connection{}
 	newConnection.Username = "Alameddin"
 	newConnection.JoinNetwork(&Connections)
+	Connections[2].LeaveNetwork(&Connections)
 	fmt.Print("Started")
 }
