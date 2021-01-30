@@ -15,5 +15,10 @@ func main() {
 	newConnection := Connection{}
 	newConnection.Username = "Alameddin"
 	newConnection.JoinNetwork(&Connections)
-	fmt.Print("Started")
+	data, _ := (Connections[101]).DrawWay(*Connections[100])
+	for _, v := range data {
+		fmt.Println(*v)
+	}
+	fmt.Println("Bitti")
+
 }

@@ -13,6 +13,7 @@ const Y = 5000
 
 var SeaMap = [X][Y]int{}
 
+// harita oluşturulur. balık yakalanır.
 func GenerateMap() {
 	dc := gg.NewContext(X, Y)
 	dc.DrawRectangle(0, 0, X, Y)

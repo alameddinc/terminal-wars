@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
+// 10m ile 100m arasında olacak bir sayının md5 hali veriliyor, cevap olarak o sayı bekleniyor.
 func TestCheckRepair(t *testing.T) {
 	results := []struct {
 		Number    int

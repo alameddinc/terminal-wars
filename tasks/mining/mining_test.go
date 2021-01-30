@@ -2,6 +2,7 @@ package mining
 
 import "testing"
 
+// belirlenen bir key bir stringin md5 hash halinde 2 veya daha fazla geçiyor mu ?
 func TestCheckMining(t *testing.T) {
 	results := []struct {
 		Key    string
